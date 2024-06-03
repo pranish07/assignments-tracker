@@ -1,6 +1,6 @@
-<?php include(".header.php") ?>
+<?php include('header.php') ?>
 <h2>Error</h2>
-<p><?= $error ?></p>
+<p><?php echo $error; ?></p>
 <br>
-<p><a href=".">Back to list</a></p>
+<p><a href=".">Back to List</a></p>
 <?php include('footer.php') ?>
